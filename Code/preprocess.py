@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-=======
 import load_data
 # return DataSet class
 data = load_data.read_data_sets(one_hot=True)
@@ -18,4 +15,3 @@ test_labels = data.test.labels
 
 # get sample number
 n_samples = data.train.num_examples
->>>>>>> 1b0c4ae (Create preprocess.py)
